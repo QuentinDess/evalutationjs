@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mon super Blog de Voyage</title>
+</head>
+    <header>
+        <div class="banner">
+            <h1>Mon super Blog de Voyage</h1>
+            <div class="nav_banner">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Accueil</a></li>
+                        <li><a href="./form.html">Contact</a></li>
+                        <li><a href="./news.html">News</a></li>
+                    </ul> 
+                </nav>
+            </div>
+            <div class="logo_banner"></div>
+        </div>
+    </header>
+    <main>
+        <div class="wrap_form">
+            <button class="join_us">cliquez pour lancer le formulaire</button>
+            <form class="display_none">
+                <fieldset id="id_connexion">
+                        <legend>Vos information de connexion</legend>
+                        <label for="pseudo">Votre identifiant</label><br /><input type="text" placeholder="Entrez votre identifiant" name="pseudo"/><br />
+                        <label for="email">Vos contact</label><br /><input type="email" placeholder="Entrez votre e-mail" name="email"/><br />
+                        <label for="password">Mot de passe</label><br /><input type="password" placeholder="Entrez votre mdp" name="password"/><br />
+                        <label name="newsletter"> Voulez-vous s'abonner à la newsletter </label><br />
+                        <input type="radio" name="newsletter" value="Yes" id="Yes" checked /> <label for="Yes" >Oui</label><br />
+                        <input type="radio" name="newsletterchoice" value="No" id="No" /> <label for="No">Non</label><br />
+                    </fieldset>
+            </form>
+            <button class="submit display_none">Envoyez vos information</button>
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <h3>Venez voir aussi:</h3>
+                <ul>
+                    <li><a>lien Facebook</a></li>
+                    <li><a>lien site officiel</a></li>
+                    <li><a>lien site pareil</a></li>
+                </ul>
+        </div>
+        <form class="message">
+            <textarea>contactez nous!</textarea>
+            <input type="submit">
+        </form>      
+    </footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
